@@ -1,0 +1,81 @@
+
+.. _intro:
+
+
+Introduction
+=============
+
+.. image:: ../images/sema_logo.png
+   :height: 101px
+   :width: 250 px
+   :scale: 100 %
+   :align: right
+
+What is SEMA?
+----------------
+
+**The Smart Embedded Management Agent (SEMA®)** |br|
+
+Downtime of devices or systems is not acceptable in today's industries. To help customers to analyze their 
+systems and take counter measures for preventive maintenance, |COMPANY| has developed a tool which is able to 
+monitor and collect system performance and status information from the hardware in a timely, flexible and 
+precise manner.
+
+A Board Management Controller collects all relevant technical information from the chipset and other sources.
+Using the System Management Bus driver, an application layer fetches the data and presents it to the user. 
+|COMPANY| provides a ready-made application that shows the data in user-friendly graphic interfaces, suitable 
+for supervision and troubleshooting.
+
+Features
+----------
+|SPN| is designed to be:
+
+* CPU Operation Modes
+* Memory Information
+* Network Information
+* ACPI Power Management
+* HDD S.M.A.R.T
+* BIOS Updates
+* Heartbeat
+* Power Consumption
+* User Area Access
+* I2C Bus Control
+* Temperatures(CPU and Board)
+* Board Information (Serial Number, Part Number, Firmware Version...)
+* Fan Control
+* GPIO Control
+* 1-Wire Bus
+* A/D Conversion
+
+Detailed forensic information is available after system or module failures. The BMC Power-Up Error Log function
+provides detailed information about history of failures that may have occurred during power-up sequences. 
+Log information includes e.g. error number, flags, restart event, power cycles, boot count, status, CPU temperature 
+and board temperature. Moreover minimum and maximum temperature of the CPU and system is available, as well 
+as HDD S.M.A.R.T information- all of which can be used to analyze system or module failure in detail.
+
+
+Support Operating System
+--------------------------
+* **Window**
+  |br| - Windows 7 32bit/64bit
+  |br| - Windows 10 64bit
+
+* **Linux**
+  |br| - Linux (3.2.x) or higher
+
+* **Yocto Linux:**  
+  |br| please refer to `meta-adlink-sema <https://github.com/ADLINK/meta-adlink-sema>`_ layer for more details
+
+* **VxWorks (by requset)** 
+
+* **QNX (by requset)**
+
+Support Hardware
+----------------
+* All Intel CPU
+* ARM SoC - NXP
+* AMD
+
+
+
+
